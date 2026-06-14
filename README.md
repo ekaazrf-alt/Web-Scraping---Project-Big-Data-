@@ -1,14 +1,16 @@
-# Web Scraping - Project Big Data
+# Project Big Data (Web Scraping & PySpark Implementation)
 
-Project untuk web scraping dan analisis big data.
+Projek ini menggabungkan teknik otomatisasi **Web Scraping (Selenium)** untuk pengumpulan data mentah dan framework **Big Data (PySpark)** untuk pemrosesan serta analisis data dalam skala besar.
 
-## Deskripsi
-Repository ini berisi project web scraping dengan fokus pada pengolahan dan analisis big data.
+## 💻 Spesifikasi Lingkungan (*Environment*)
+* **Platform:** Google Colab Cloud Server
+* **Bahasa Pemrograman:** Python 3.10+
+* **Framework Big Data:** PySpark 3.5.x & Apache Spark Local Cluster (Java JDK)
+* **Otomatisasi Browser:** Selenium WebDriver (Chrome Headless Mode)
+* **Library Pendukung:** `pyspark.sql`, `re` (Regular Expression), `pandas`, `urllib.parse`
 
-## Isi Repository
-- Scripts untuk web scraping
-- Data analysis notebooks
-- Dataset dan hasil processing
+## 🚀 Alur Kerja Sistem (*Data Pipeline*)
+1. Pengumpulan Data Mentah (Web Scraping - Selenium)
+2. Pemrosesan & Analisis Data (Big Data - PySpark)
 
-## Status
-Project sedang dalam tahap pengembangan.
+👨‍💻 By : Diny Eka Zharafah (245150207111088) | ABD-C
